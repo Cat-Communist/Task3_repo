@@ -29,6 +29,7 @@ namespace Task3
     {
         static void Main(string[] args)
         {
+            Console.Write("Ваше предложение: ");
             string input = Console.ReadLine();
             var result = Logic.CalcFractions(input);
 
